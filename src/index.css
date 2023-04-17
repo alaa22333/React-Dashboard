@@ -1,0 +1,70 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,400&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+
+  body{
+    font-family: 'Poppins' ,sans-serif;
+    
+  }
+  
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar:hover{
+    width:12px
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(174, 176, 181, 0.525);
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .fc .fc-timegrid-slot{
+    height:2.5rem !important
+  }
+  
+  .fc-v-event , .fc-direction-ltr .fc-daygrid-event.fc-event-end {
+   padding-inline: 10px;
+   color:white;
+   border-radius:4px;
+   font-family: "poppins";
+   background: #1e293b     ;
+   -webkit-border-radius:4px;
+   -moz-border-radius:4px;
+   -ms-border-radius:4px;
+   -o-border-radius:4px;
+}
+.fc .fc-toolbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;}
+  .fc .fc-button-group>.fc-button{
+    padding: 10px
+  }
+@layer components{
+
+body * {
+  @apply transition-colors duration-300;
+}
+  .content{
+   @apply  lg:ml-80 h-100 px-5  mx-auto  text-primary
+  }
+.darkBg{
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #365e81, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(-200deg, #050849, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+}
