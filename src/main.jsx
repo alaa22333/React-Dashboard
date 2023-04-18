@@ -8,14 +8,14 @@ import { ThemeProvider } from "@material-tailwind/react";
 import { ContextUserProvider } from "./Contexts/UserContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <ThemeProvider>
-        <ContextUserProvider>
+      
           <ContextProvider>
+     <ThemeProvider>
+    <BrowserRouter> 
             <App />
+     
+    </BrowserRouter> </ThemeProvider>
           </ContextProvider>
-        </ContextUserProvider>
-      </ThemeProvider>
-    </BrowserRouter>
+      
   </React.StrictMode>
 );

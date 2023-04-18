@@ -20,7 +20,7 @@ import {
 import { useStateContext } from "./Contexts/stateContext";
 
 import useAuth from "./custom-hooks/useAuth";
-import { useUserContext } from "./Contexts/UserContext";
+import { ContextUserProvider, useUserContext } from "./Contexts/UserContext";
 
 import SideBarLyout from "./pages/SideBarLyout";
 
@@ -31,10 +31,11 @@ function App() {
   const { currentUser } = useAuth();
 
   return (
+    <ContextUserProvider>
     <div className="flex    relative min-h-screen bg-bground  transition-all duration-300 dark:darkBg  flex-col ">
        <SettingsColors/>
       
-      <div>
+
         <Routes>
           <Route element={<SideBarLyout/>}>
           <Route
@@ -97,9 +98,10 @@ function App() {
           <Route path="/sign up" element={<SignUp />} />
           <Route path="*" element={<Error />} />
         </Routes>
-      </div>
+     
       <Footer/>
     </div>
+      </ContextUserProvider>
   );
 }
 

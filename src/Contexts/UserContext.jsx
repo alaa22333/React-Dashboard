@@ -20,7 +20,7 @@ import { useNavigate } from "react-router-dom";
 
 import { setDoc, doc } from "firebase/firestore";
 
-const context = createContext();
+const UserContext = createContext();
 export const ContextUserProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
@@ -116,7 +116,7 @@ export const ContextUserProvider = ({ children }) => {
     }
   };
   return (
-    <context.Provider
+    <UserContext.Provider
       value={{
         handleSignIn,
         user,
@@ -127,10 +127,10 @@ export const ContextUserProvider = ({ children }) => {
       }}
     >
       {children}
-    </context.Provider>
+    </UserContext.Provider>
   );
 };
 
 export const useUserContext = () => {
-  return useContext(context);
+  return useContext(UserContext);
 };

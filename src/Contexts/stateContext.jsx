@@ -6,7 +6,7 @@ import {
   useState,
 } from "react";
 
-const context = createContext();
+const StateContext = createContext();
 export const ContextProvider = ({ children }) => {
   const [close, setClose] = useState(false);
   const [cancel, setCancel] = useState(false);
@@ -52,7 +52,7 @@ export const ContextProvider = ({ children }) => {
     setSetting(!setting);
   };
   return (
-    <context.Provider
+    <StateContext.Provider
       value={{
         closeSideBar,
 
@@ -71,10 +71,10 @@ export const ContextProvider = ({ children }) => {
       }}
     >
       {children}
-    </context.Provider>
+    </StateContext.Provider>
   );
 };
 
 export const useStateContext = () => {
-  return useContext(context);
+  return useContext(StateContext);
 };
