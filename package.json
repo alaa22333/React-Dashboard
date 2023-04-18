@@ -1,7 +1,6 @@
 {
   "homepage": "http://alaa22333.github.io/React-Dashboard",
-  "private": true,
-  "type": "module",
+ 
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
