@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route ,useNavigate} from "react-router-dom";
 import "./index.css";
 import "./App.css";
 import { Footer, NavBar, SettingsColors, SideBar } from "./Components";
@@ -26,79 +26,78 @@ import SideBarLyout from "./pages/SideBarLyout";
 
 
 function App() {
-  const { close, colorTheme, handleColor,setTheme,theme,} = useStateContext();
  
   const { currentUser } = useAuth();
-
+  const navigate=useNavigate()
   return (
     <ContextUserProvider>
     <div className="flex    relative min-h-screen bg-bground  transition-all duration-300 dark:darkBg  flex-col ">
        <SettingsColors/>
       
-
+      <div>
         <Routes>
-          <Route element={<SideBarLyout/>}>
           <Route
             path="/"
             element={
-              <ProtectedPage>
+             currentUser ?  <ProtectedPage>
+                <SideBarLyout/>
                 <Home />
-              </ProtectedPage>
-            }
-          /></Route>
-          <Route element={<SideBarLyout/>}>
+              </ProtectedPage>:<SignIn/>}
+           
+            
+          />
           <Route
             path="/orders"
             element={
               <ProtectedPage>
+                <SideBarLyout/>
                 <Orders />
               </ProtectedPage>
             }
           />
-          </Route>
-          <Route element={<SideBarLyout/>}>
+          
           <Route
             path="/users"
             element={
               <ProtectedPage>
+                <SideBarLyout/>
                 <Users />
               </ProtectedPage>
             }
-          /></Route>
-         <Route element={<SideBarLyout/>}>
+          />
           <Route
             path="/employees"
             element={
               <ProtectedPage>
+                <SideBarLyout/>
                 <Employees />
               </ProtectedPage>
             }
-          /></Route>
-           <Route element={<SideBarLyout/>}>
-          <Route
+          />
+           <Route
             path="/calendar"
             element={
               <ProtectedPage>
+                <SideBarLyout/>
                 <Calender />
               </ProtectedPage>
             }
-          /></Route>
-          <Route element={<SideBarLyout/>}>
+          />
           <Route
          
             path="/Charts"
             element={
               <ProtectedPage>
-                {" "}
+             <SideBarLyout/>
                 <ChartsPage />
               </ProtectedPage>
             }
-          /></Route>
+          />
           <Route path="/sign in" element={<SignIn />} />
           <Route path="/sign up" element={<SignUp />} />
           <Route path="*" element={<Error />} />
         </Routes>
-     
+      </div>
       <Footer/>
     </div>
       </ContextUserProvider>
