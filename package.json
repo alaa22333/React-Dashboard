@@ -1,6 +1,5 @@
 {
   "homepage": "http://alaa22333.github.io/React-Dashboard",
- 
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
@@ -24,7 +23,8 @@
     "@mui/x-data-grid-generator": "^6.0.3",
     "aos": "^3.0.0-beta.6",
     "chart.js": "^4.2.1",
-    "firebase": "^9.19.1",
+    "dotenv": "^16.3.1",
+    "firebase": "^9.23.0",
     "heroicons-react": "^1.4.1",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
