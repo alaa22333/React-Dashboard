@@ -111,7 +111,7 @@ const Calender = () => {
                 right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
               }}
               allDaySlot={false}
-              initialView="timeGridWeek"
+              initialView="dayGridMonth"
               slotDuration={"01:00:00"}
               editable={true}
               selectable={true}

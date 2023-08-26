@@ -10,8 +10,8 @@ const Footer = () => {
     const {  colorTheme } =  useStateContext();
 const location=useLocation()
   return (
-    <div className='mt-[2rem] dark:darkBg bg-primary absolute bottom-0 min-h-fit w-full  mx-auto  '>
-      <Typography className={`text-white   ${location.pathname==='/sign in'|| location.pathname==='/sign up'? 'pl:0': 'lg:pl-40 '} py-4 text-center`} >All Rights reserved <span style={{color:colorTheme}}>{new Date().getFullYear()}</span> </Typography>
+    <div className='mt-[2rem] dark:darkBg bg-primary absolute bottom-0  w-full  mx-auto  '>
+      <Typography className={`text-white   ${location.pathname==='/sign in'|| location.pathname==='/sign up'? ' pl:0': 'lg:pl-40 '} py-4 text-center`} >All Rights reserved <span style={{color:colorTheme}}>{new Date().getFullYear()}</span> </Typography>
     </div>
   )
 }

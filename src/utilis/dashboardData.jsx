@@ -2362,24 +2362,24 @@ export const scheduleData = [
     id: createEventId(),
     title: "Facts of Humming Birds",
     Location: "California",
-    start: "2023-09-19T04:00:00.000Z",
-    end: "2023-09-19T05:30:00.000Z",
+    start: "2023-08-19T04:00:00.000Z",
+    end: "2023-08-19T05:30:00.000Z",
     backgroundColor: "#7fa900",
   },
   {
     id: createEventId(),
     title: "Sky Gazers",
     Location: "Alaska",
-    start: "2023-09-22T05:30:00.000Z",
-    end: "2023-09-22T07:30:00.000Z",
+    start: "2023-08-22T05:30:00.000Z",
+    end: "2023-08-22T07:30:00.000Z",
     backgroundColor: "#ea7a57",
   },
   {
     id: createEventId(),
     title: "The Cycle of Seasons",
     Location: "Research Center of USA",
-    start: "2023-09-11T00:00:00.000Z",
-    end: "2023-09-11T02:00:00.000Z",
+    start: "2023-08-11T00:00:00.000Z",
+    end: "2023-08-11T02:00:00.000Z",
     backgroundColor: "#00bdae",
   },
   {
@@ -2387,16 +2387,16 @@ export const scheduleData = [
     title: "Space Galaxies and Planets",
 
     Location: "Space Center USA",
-    start: "2023-09-11T11:30:00.000Z",
-    end: "2023-09-11T13:00:00.000Z",
+    start: "2023-08-11T11:30:00.000Z",
+    end: "2023-08-11T13:00:00.000Z",
     backgroundColor: "#f57f17",
   },
   {
     id: createEventId(),
     title: "Lifecycle of Bumblebee",
     Location: "San Fransisco",
-    start: "2023-09-14T00:30:00.000Z",
-    end: "2023-09-14T02:00:00.000Z",
+    start: "2023-08-14T00:30:00.000Z",
+    end: "2023-08-14T02:00:00.000Z",
     backgroundColor: "#7fa900",
   },
   {
@@ -2431,14 +2431,7 @@ export const scheduleData = [
     end: "2023-09-15T10:30:00.000Z",
     backgroundColor: "#ea7a57",
   },
-  {
-    id: createEventId(),
-    title: "Facts of Humming Birds",
-    Location: "California",
-    start: "2023-08-16T07:00:00.000Z",
-    end: "2023-09-16T09:00:00.000Z",
-    backgroundColor: "#7fa900",
-  },
+
 ];
 
 //kanban

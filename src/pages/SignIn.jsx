@@ -32,7 +32,7 @@ const SignIn = () => {
     Aos.init({ delay: 200, duration: 1500 });
   }, []);
   return (
-    <>
+    <div className="pb-[10rem] lg:pb-0">
       <div className="  bg-zinc-400 min-h-full justify-center lg:justify-evenly flex flex-wrap items-start mx-auto px-2 md:px-10">
         <div
           data-aos="flip-right"
@@ -139,7 +139,7 @@ const SignIn = () => {
       </div>
       <ToastContainer />
    
-    </>
+    </div>
   );
 };
 

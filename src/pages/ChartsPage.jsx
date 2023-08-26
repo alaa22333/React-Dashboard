@@ -29,7 +29,7 @@ const ChartsPage = () => {
           <NavBar name="Charts" type="Pages" />
         </div>
       )}
-      <div className="lg:ml-80 min-h-screen   px-5  mx-auto  text-primary">
+      <div className="lg:ml-80 min-h-screen  pb-[5rem] px-5  mx-auto  text-primary">
         <div className=" w-full  ">
           <Typography
             variant="h3"
