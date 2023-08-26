@@ -1,4 +1,4 @@
-# React Dashboard
+# React Dashboard <a href="https://www.flaticon.com/free-icons/dashboard" title="dashboard icons">Dashboard icons created by juicy_fish - Flaticon</a>
 
 This project is a React dashboard with light/dark control, color catalog, and integration with Chart.js and FullCalendar tools. It also uses MUI and Material Tailwind for styling.
 
