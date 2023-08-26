@@ -1,4 +1,4 @@
-# :collision: React Dashboard :chart_with_downwards_trend:
+#  React Dashboard :chart_with_downwards_trend: 🚀
 
 ![Icon Name](https://github.com/alaa22333/React-Dashboard/assets/87030668/df83133e-f66d-4fbb-be84-27da4c11868f)  ![image](https://github.com/alaa22333/React-Dashboard/assets/87030668/aa1d6c46-736e-4e29-a118-5f55031d09a8)
 
@@ -17,13 +17,13 @@ This project is a React dashboard with light/dark control, color catalog, and in
 - FullCalendar integration: Keep track of your schedule with an interactive calendar.
 - MUI and Material Tailwind: Style your dashboard with the latest design trends.
 
-## Installation
+## :collision: Installation :rocket:
 
 1. Clone this repository
 2. Run `npm install` to install dependencies
 3. Run `npm run dev` to start the development server
 
-## Usage
+## Usage :wink:
 
 To use the dashboard, navigate to `http://localhost:5173` in your browser. From there, you can switch between light and dark themes, choose a color from the color catalog, and interact with the charts and calendar.
 
