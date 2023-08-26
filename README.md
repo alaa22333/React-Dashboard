@@ -1,5 +1,9 @@
-# React Dashboard [![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+# React Dashboard 
 This project is a React dashboard with light/dark control, color catalog, and integration with Chart.js and FullCalendar tools. It also uses MUI and Material Tailwind for styling.
+
+# Skills
+
+[![My Skills](https://skillicons.dev/icons?i=reactjs,html,css,tailwindcss,mui)](https://skillicons.dev)
 
 ## Features
 
