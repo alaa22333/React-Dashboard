@@ -3,7 +3,7 @@ This project is a React dashboard with light/dark control, color catalog, and in
 
 # Skills
 
-  [![My Skills](https://skillicons.dev/icons?i=reactjs,html,css,firebase,tailwindcss,mui,chartsjs,fullcallander,aos)](https://skillicons.dev)
+  [![My Skills](https://skillicons.dev/icons?i=react,html,css,firebase,tailwindcss,mui,charts,AOS)](https://skillicons.dev)
 
 ## Features
 
