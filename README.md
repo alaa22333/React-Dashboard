@@ -1,4 +1,4 @@
-# React Dashboard  [![github]src/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)]
+# React Dashboard  [![github]/[assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.4me.com%2Fblog%2Freport-icons-added-to-dashboard-suggestions%2F&psig=AOvVaw0qzNtj5vWKVc9GoSPfeje1&ust=1693165601062000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPj_i8OL-4ADFQAAAAAdAAAAABA))]
 This project is a React dashboard with light/dark control, color catalog, and integration with Chart.js and FullCalendar tools. It also uses MUI and Material Tailwind for styling.
 
 ## Features
