@@ -5,7 +5,7 @@ import { useStateContext } from "../Contexts/stateContext";
 
 const LinkButton = ({name,func,icon}) => {
     const activeClass =
-    "flex gap-3 w-full items-center   dark:bg-secDrBg/60  bg-white shadow-sm  rounded-lg";
+    "flex gap-3 w-full items-center border-white border-opacity-40    dark:bg-white bg-opacity-90 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem]  border   bg-white  round-full";
   const normalClass =
     "flex gap-3 w-full items-center  dark:text-darkPrimary  dark:darkBg  bg-bground shadow-sm  rounded-lg";
  

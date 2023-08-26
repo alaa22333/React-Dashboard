@@ -7,8 +7,9 @@ import {
   ChartDashboard,
   NavBar,
   Footer,
+  DataGridTables,
 } from "../Components";
-import { todaysData } from "../utilis/dashboardData";
+import { columnsOrders, ordersData, todaysData } from "../utilis/dashboardData";
 import { useStateContext } from "../Contexts/stateContext";
 import useAuth from "../custom-hooks/useAuth";
 import { DoughnutChart, PieChart } from "../Components/Charts";
@@ -63,8 +64,9 @@ const Home = () => {
           <PieChart />
           <DoughnutChart />
         </div>
-         
+
       </div>
+        <DataGridTables rows={ordersData} columns={columnsOrders} title={'Recent Orders'}/>
     
     </>
   );
