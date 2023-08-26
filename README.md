@@ -1,4 +1,4 @@
-# React Dashboard  !Alt text !Logo
+# React Dashboard  [![github](https://cloud.alaa22333.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)]
 This project is a React dashboard with light/dark control, color catalog, and integration with Chart.js and FullCalendar tools. It also uses MUI and Material Tailwind for styling.
 
 ## Features
